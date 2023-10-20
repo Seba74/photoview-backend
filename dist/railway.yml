@@ -1,0 +1,5 @@
+version: '1'
+plugins:
+  - name: node
+    buildCommand: 'npm i && npm run build'
+    runCommand: 'npm start'
